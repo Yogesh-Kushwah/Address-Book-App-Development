@@ -1,6 +1,7 @@
 package com.bridgelebz.addressBook.controller;
 
 import com.bridgelebz.addressBook.Repository.AddressRepository;
+import com.bridgelebz.addressBook.dto.AddressBookDTO;
 import com.bridgelebz.addressBook.model.Address;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -11,6 +12,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/addresses")
 public class AddressController {
+
     @Autowired
     private AddressRepository repository;
 
@@ -26,15 +28,24 @@ public class AddressController {
     }
 
     @PostMapping("/post")
-    public ResponseEntity<Address> create(@RequestBody Address address) {
+    public ResponseEntity<Address> create(@RequestBody AddressBookDTO dto) {
+        Address address = new Address();
+        address.setName(dto.getName());
+        address.setPhoneNumber(dto.getPhoneNumber());
+        address.setEmail(dto.getEmail());
+        address.setCity(dto.getCity());
+
         return ResponseEntity.ok(repository.save(address));
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<Address> update(@PathVariable Long id, @RequestBody Address address) {
+    public ResponseEntity<Address> update(@PathVariable Long id, @RequestBody AddressBookDTO dto) {
         return repository.findById(id).map(existing -> {
-            existing.setName(address.getName());
-            existing.setPhoneNumber(address.getPhoneNumber());
+            existing.setName(dto.getName());
+            existing.setPhoneNumber(dto.getPhoneNumber());
+            existing.setEmail(dto.getEmail());
+            existing.setCity(dto.getCity());
+
             return ResponseEntity.ok(repository.save(existing));
         }).orElse(ResponseEntity.notFound().build());
     }
