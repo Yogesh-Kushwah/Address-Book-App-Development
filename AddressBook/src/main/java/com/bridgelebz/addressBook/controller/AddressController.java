@@ -1,30 +1,31 @@
 package com.bridgelebz.addressBook.controller;
 
-import com.bridgelebz.addressBook.Repository.AddressRepository;
 import com.bridgelebz.addressBook.dto.AddressBookDTO;
 import com.bridgelebz.addressBook.model.Address;
+import com.bridgelebz.addressBook.service.AddressService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/addresses")
 public class AddressController {
 
     @Autowired
-    private AddressRepository repository;
+    private AddressService service; // Using Service Layer
 
     @GetMapping
     public ResponseEntity<List<Address>> getAll() {
-        return ResponseEntity.ok(repository.findAll());
+        return ResponseEntity.ok(service.getAllAddresses());
     }
 
     @GetMapping("/{id}")
     public ResponseEntity<Address> getById(@PathVariable Long id) {
-        return repository.findById(id).map(ResponseEntity::ok)
-                .orElse(ResponseEntity.notFound().build());
+        Optional<Address> address = service.getAddressById(id);
+        return address.map(ResponseEntity::ok).orElse(ResponseEntity.notFound().build());
     }
 
     @PostMapping("/post")
@@ -35,25 +36,25 @@ public class AddressController {
         address.setEmail(dto.getEmail());
         address.setCity(dto.getCity());
 
-        return ResponseEntity.ok(repository.save(address));
+        return ResponseEntity.ok(service.saveAddress(address));
     }
 
     @PutMapping("/{id}")
     public ResponseEntity<Address> update(@PathVariable Long id, @RequestBody AddressBookDTO dto) {
-        return repository.findById(id).map(existing -> {
+        return service.getAddressById(id).map(existing -> {
             existing.setName(dto.getName());
             existing.setPhoneNumber(dto.getPhoneNumber());
             existing.setEmail(dto.getEmail());
             existing.setCity(dto.getCity());
 
-            return ResponseEntity.ok(repository.save(existing));
+            return ResponseEntity.ok(service.saveAddress(existing));
         }).orElse(ResponseEntity.notFound().build());
     }
 
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> delete(@PathVariable Long id) {
-        if (repository.existsById(id)) {
-            repository.deleteById(id);
+        if (service.getAddressById(id).isPresent()) {
+            service.deleteAddress(id);
             return ResponseEntity.noContent().build();
         }
         return ResponseEntity.notFound().build();
