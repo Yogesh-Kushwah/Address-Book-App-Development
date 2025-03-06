@@ -41,20 +41,20 @@ public class AddressController {
 
     @PutMapping("/{id}")
     public ResponseEntity<Address> update(@PathVariable Long id, @RequestBody AddressBookDTO dto) {
-        return service.getAddressById(id).map(existing -> {
-            existing.setName(dto.getName());
-            existing.setPhoneNumber(dto.getPhoneNumber());
-            existing.setEmail(dto.getEmail());
-            existing.setCity(dto.getCity());
+        Address updatedAddress = new Address();
+        updatedAddress.setName(dto.getName());
+        updatedAddress.setPhoneNumber(dto.getPhoneNumber());
+        updatedAddress.setEmail(dto.getEmail());
+        updatedAddress.setCity(dto.getCity());
 
-            return ResponseEntity.ok(service.saveAddress(existing));
-        }).orElse(ResponseEntity.notFound().build());
+        return service.updateAddress(id, updatedAddress)
+                .map(ResponseEntity::ok)
+                .orElse(ResponseEntity.notFound().build());
     }
 
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> delete(@PathVariable Long id) {
-        if (service.getAddressById(id).isPresent()) {
-            service.deleteAddress(id);
+        if (service.deleteAddress(id)) {
             return ResponseEntity.noContent().build();
         }
         return ResponseEntity.notFound().build();
