@@ -3,6 +3,7 @@ package com.bridgelebz.addressBook.controller;
 import com.bridgelebz.addressBook.dto.AddressBookDTO;
 import com.bridgelebz.addressBook.model.Address;
 import com.bridgelebz.addressBook.service.AddressService;
+import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -33,7 +34,7 @@ public class AddressController {
     }
 
     @PostMapping("/post")
-    public ResponseEntity<Address> create(@RequestBody AddressBookDTO dto) {
+    public ResponseEntity<Address> create(@Valid @RequestBody AddressBookDTO dto) {
         log.info("Received POST request to create new address");
         Address address = new Address();
         address.setName(dto.getName());
@@ -48,9 +49,8 @@ public class AddressController {
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<Address> update(@PathVariable Long id, @RequestBody Address dto) {
-        log.info("Received PUT request to update address ID: {}");
-
+    public ResponseEntity<Address> update(@PathVariable Long id, @Valid @RequestBody Address dto) {
+        log.info("Received PUT request to update address ID: {}", id);
         Optional<Address> updatedAddress = service.updateAddress(id, dto);
         return updatedAddress.map(ResponseEntity::ok).orElse(ResponseEntity.notFound().build());
     }
