@@ -1,5 +1,6 @@
 package com.bridgelebz.addressBook.service;
 
+import com.bridgelebz.addressBook.exception.EmployeeNotFoundException;
 import com.bridgelebz.addressBook.model.Address;
 import com.bridgelebz.addressBook.Repository.AddressRepository;
 import lombok.extern.slf4j.Slf4j;
@@ -28,30 +29,34 @@ public class AddressService {
 
     public Address saveAddress(Address address) {
         log.info("Saving new address: {}", address);
-        return repository.save(address); // ✅ Save to DB
+        return repository.save(address);
     }
 
-    public Optional<Address> updateAddress(Long id, Address updatedAddress) {
-        return repository.findById(id).map(existing -> {
-            log.info("Updating address with ID: {}", id);
-            existing.setName(updatedAddress.getName());
-            existing.setPhoneNumber(updatedAddress.getPhoneNumber());
-            existing.setEmail(updatedAddress.getEmail());
-            existing.setAddress(updatedAddress.getAddress());
-            existing.setCity(updatedAddress.getCity());
-            existing.setState(updatedAddress.getState());
-            existing.setZip(updatedAddress.getZip());
 
-            return repository.save(existing);
-        });
+    public Address updateAddress(Long id, Address updatedAddress) {
+        Address existing = repository.findById(id)
+                .orElseThrow(() -> new EmployeeNotFoundException("Employee with ID " + id + " not found"));
+
+        log.info("Updating address with ID: {}", id);
+        existing.setName(updatedAddress.getName());
+        existing.setPhoneNumber(updatedAddress.getPhoneNumber());
+        existing.setEmail(updatedAddress.getEmail());
+        existing.setAddress(updatedAddress.getAddress());
+        existing.setCity(updatedAddress.getCity());
+        existing.setState(updatedAddress.getState());
+        existing.setZip(updatedAddress.getZip());
+
+        return repository.save(existing);
     }
+
 
     public boolean deleteAddress(Long id) {
-        if (repository.existsById(id)) {
-            log.info("Deleting address with ID: {}", id);
-            repository.deleteById(id);
-            return true;
+        if (!repository.existsById(id)) {
+            throw new EmployeeNotFoundException("Employee with ID " + id + " not found");
         }
+        log.info("Deleting address with ID: {}", id);
+        repository.deleteById(id);
+
         return false;
     }
 }
