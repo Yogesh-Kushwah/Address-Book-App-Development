@@ -17,7 +17,7 @@ import java.util.Optional;
 public class AddressController {
 
     @Autowired
-    private AddressService service; // Using Service Layer
+    private AddressService service;
 
     @GetMapping
     public ResponseEntity<List<Address>> getAll() {
@@ -39,23 +39,20 @@ public class AddressController {
         address.setName(dto.getName());
         address.setPhoneNumber(dto.getPhoneNumber());
         address.setEmail(dto.getEmail());
+        address.setAddress(dto.getAddress());
         address.setCity(dto.getCity());
+        address.setState(dto.getState());
+        address.setZip(dto.getZip());
 
         return ResponseEntity.ok(service.saveAddress(address));
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<Address> update(@PathVariable Long id, @RequestBody AddressBookDTO dto) {
-        log.info("Received PUT request to update address ID: {}", id);
-        Address updatedAddress = new Address();
-        updatedAddress.setName(dto.getName());
-        updatedAddress.setPhoneNumber(dto.getPhoneNumber());
-        updatedAddress.setEmail(dto.getEmail());
-        updatedAddress.setCity(dto.getCity());
+    public ResponseEntity<Address> update(@PathVariable Long id, @RequestBody Address dto) {
+        log.info("Received PUT request to update address ID: {}");
 
-        return service.updateAddress(id, updatedAddress)
-                .map(ResponseEntity::ok)
-                .orElse(ResponseEntity.notFound().build());
+        Optional<Address> updatedAddress = service.updateAddress(id, dto);
+        return updatedAddress.map(ResponseEntity::ok).orElse(ResponseEntity.notFound().build());
     }
 
     @DeleteMapping("/{id}")

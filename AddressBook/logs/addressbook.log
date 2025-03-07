@@ -37,3 +37,889 @@
 2025-03-07 10:47:56 - [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-03-07 10:47:56 - [INFO] - HikariPool-1 - Shutdown initiated...
 2025-03-07 10:47:56 - [INFO] - HikariPool-1 - Shutdown completed.
+2025-03-07 11:07:55 - [INFO] - Starting AddressBookApplication using Java 23.0.2 with PID 25124 (P:\Backend\Address_Book\AddressBook\AddressBook\target\classes started by yogesh in P:\Backend\Address_Book\AddressBook\AddressBook)
+2025-03-07 11:07:55 - [DEBUG] - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-07 11:07:55 - [INFO] - The following 1 profile is active: "dev"
+2025-03-07 11:07:55 - [INFO] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-07 11:07:55 - [INFO] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-07 11:07:56 - [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-07 11:07:56 - [INFO] - Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interface.
+2025-03-07 11:07:57 - [INFO] - Tomcat initialized with port 8080 (http)
+2025-03-07 11:07:57 - [INFO] - Starting service [Tomcat]
+2025-03-07 11:07:57 - [INFO] - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-07 11:07:57 - [INFO] - Initializing Spring embedded WebApplicationContext
+2025-03-07 11:07:57 - [INFO] - Root WebApplicationContext: initialization completed in 1519 ms
+2025-03-07 11:07:57 - [INFO] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-07 11:07:57 - [INFO] - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-07 11:07:57 - [INFO] - HHH000026: Second-level cache disabled
+2025-03-07 11:07:58 - [INFO] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-07 11:07:58 - [INFO] - HikariPool-1 - Starting...
+2025-03-07 11:07:58 - [INFO] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71d6bac5
+2025-03-07 11:07:58 - [INFO] - HikariPool-1 - Start completed.
+2025-03-07 11:07:58 - [WARN] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-07 11:07:58 - [INFO] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-07 11:07:59 - [INFO] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-07 11:07:59 - [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-07 11:07:59 - [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-07 11:08:00 - [INFO] - LiveReload server is running on port 35729
+2025-03-07 11:08:00 - [INFO] - Tomcat started on port 8080 (http) with context path '/'
+2025-03-07 11:08:00 - [INFO] - Started AddressBookApplication in 4.904 seconds (process running for 5.436)
+2025-03-07 11:23:27 - [INFO] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-07 11:23:27 - [INFO] - Graceful shutdown complete
+2025-03-07 11:23:27 - [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-07 11:23:27 - [INFO] - HikariPool-1 - Shutdown initiated...
+2025-03-07 11:23:27 - [INFO] - HikariPool-1 - Shutdown completed.
+2025-03-07 11:24:57 - [INFO] - Starting AddressBookApplication using Java 23.0.2 with PID 31248 (P:\Backend\Address_Book\AddressBook\AddressBook\target\classes started by yogesh in P:\Backend\Address_Book\AddressBook\AddressBook)
+2025-03-07 11:24:57 - [DEBUG] - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-07 11:24:57 - [INFO] - The following 1 profile is active: "dev"
+2025-03-07 11:24:57 - [INFO] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-07 11:24:57 - [INFO] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-07 11:24:57 - [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-07 11:24:57 - [INFO] - Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interface.
+2025-03-07 11:24:58 - [INFO] - Tomcat initialized with port 8080 (http)
+2025-03-07 11:24:58 - [INFO] - Starting service [Tomcat]
+2025-03-07 11:24:58 - [INFO] - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-07 11:24:58 - [INFO] - Initializing Spring embedded WebApplicationContext
+2025-03-07 11:24:58 - [INFO] - Root WebApplicationContext: initialization completed in 1484 ms
+2025-03-07 11:24:59 - [INFO] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-07 11:24:59 - [INFO] - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-07 11:24:59 - [INFO] - HHH000026: Second-level cache disabled
+2025-03-07 11:24:59 - [INFO] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-07 11:24:59 - [INFO] - HikariPool-1 - Starting...
+2025-03-07 11:24:59 - [INFO] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a6e1302
+2025-03-07 11:24:59 - [INFO] - HikariPool-1 - Start completed.
+2025-03-07 11:24:59 - [WARN] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-07 11:24:59 - [INFO] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-07 11:25:00 - [INFO] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-07 11:25:00 - [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-07 11:25:01 - [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-07 11:25:01 - [INFO] - LiveReload server is running on port 35729
+2025-03-07 11:25:01 - [INFO] - Tomcat started on port 8080 (http) with context path '/'
+2025-03-07 11:25:01 - [INFO] - Started AddressBookApplication in 4.915 seconds (process running for 5.409)
+2025-03-07 11:25:47 - [INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-07 11:25:47 - [INFO] - Initializing Servlet 'dispatcherServlet'
+2025-03-07 11:25:47 - [INFO] - Completed initialization in 2 ms
+2025-03-07 11:25:47 - [WARN] - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-03-07 11:25:56 - [INFO] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-07 11:25:56 - [INFO] - Graceful shutdown complete
+2025-03-07 11:25:56 - [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-07 11:25:57 - [INFO] - HikariPool-1 - Shutdown initiated...
+2025-03-07 11:25:57 - [INFO] - HikariPool-1 - Shutdown completed.
+2025-03-07 11:26:01 - [INFO] - Starting AddressBookApplication using Java 23.0.2 with PID 24884 (P:\Backend\Address_Book\AddressBook\AddressBook\target\classes started by yogesh in P:\Backend\Address_Book\AddressBook\AddressBook)
+2025-03-07 11:26:01 - [DEBUG] - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-07 11:26:01 - [INFO] - The following 1 profile is active: "dev"
+2025-03-07 11:26:02 - [INFO] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-07 11:26:02 - [INFO] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-07 11:26:02 - [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-07 11:26:02 - [INFO] - Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interface.
+2025-03-07 11:26:03 - [INFO] - Tomcat initialized with port 8080 (http)
+2025-03-07 11:26:03 - [INFO] - Starting service [Tomcat]
+2025-03-07 11:26:03 - [INFO] - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-07 11:26:03 - [INFO] - Initializing Spring embedded WebApplicationContext
+2025-03-07 11:26:03 - [INFO] - Root WebApplicationContext: initialization completed in 1836 ms
+2025-03-07 11:26:04 - [INFO] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-07 11:26:04 - [INFO] - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-07 11:26:04 - [INFO] - HHH000026: Second-level cache disabled
+2025-03-07 11:26:04 - [INFO] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-07 11:26:04 - [INFO] - HikariPool-1 - Starting...
+2025-03-07 11:26:04 - [INFO] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b659455
+2025-03-07 11:26:04 - [INFO] - HikariPool-1 - Start completed.
+2025-03-07 11:26:05 - [WARN] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-07 11:26:05 - [INFO] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-07 11:26:05 - [INFO] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-07 11:26:05 - [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-07 11:26:06 - [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-07 11:26:06 - [INFO] - LiveReload server is running on port 35729
+2025-03-07 11:26:06 - [INFO] - Tomcat started on port 8080 (http) with context path '/'
+2025-03-07 11:26:06 - [INFO] - Started AddressBookApplication in 5.192 seconds (process running for 5.649)
+2025-03-07 11:26:33 - [INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-07 11:26:33 - [INFO] - Initializing Servlet 'dispatcherServlet'
+2025-03-07 11:26:33 - [INFO] - Completed initialization in 2 ms
+2025-03-07 11:26:33 - [WARN] - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-03-07 11:28:11 - [INFO] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-07 11:28:11 - [INFO] - Graceful shutdown complete
+2025-03-07 11:28:11 - [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-07 11:28:11 - [INFO] - HikariPool-1 - Shutdown initiated...
+2025-03-07 11:28:11 - [INFO] - HikariPool-1 - Shutdown completed.
+2025-03-07 11:28:23 - [INFO] - Starting AddressBookApplication using Java 23.0.2 with PID 10020 (P:\Backend\Address_Book\AddressBook\AddressBook\target\classes started by yogesh in P:\Backend\Address_Book\AddressBook\AddressBook)
+2025-03-07 11:28:23 - [DEBUG] - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-07 11:28:23 - [INFO] - The following 1 profile is active: "dev"
+2025-03-07 11:28:23 - [INFO] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-07 11:28:23 - [INFO] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-07 11:28:24 - [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-07 11:28:24 - [INFO] - Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interface.
+2025-03-07 11:28:25 - [INFO] - Tomcat initialized with port 8080 (http)
+2025-03-07 11:28:25 - [INFO] - Starting service [Tomcat]
+2025-03-07 11:28:25 - [INFO] - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-07 11:28:25 - [INFO] - Initializing Spring embedded WebApplicationContext
+2025-03-07 11:28:25 - [INFO] - Root WebApplicationContext: initialization completed in 1840 ms
+2025-03-07 11:28:25 - [INFO] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-07 11:28:25 - [INFO] - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-07 11:28:25 - [INFO] - HHH000026: Second-level cache disabled
+2025-03-07 11:28:26 - [INFO] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-07 11:28:26 - [INFO] - HikariPool-1 - Starting...
+2025-03-07 11:28:26 - [INFO] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@50d42602
+2025-03-07 11:28:26 - [INFO] - HikariPool-1 - Start completed.
+2025-03-07 11:28:26 - [WARN] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-07 11:28:26 - [INFO] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-07 11:28:27 - [INFO] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-07 11:28:27 - [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-07 11:28:27 - [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-07 11:28:28 - [INFO] - LiveReload server is running on port 35729
+2025-03-07 11:28:28 - [INFO] - Tomcat started on port 8080 (http) with context path '/'
+2025-03-07 11:28:28 - [INFO] - Started AddressBookApplication in 5.357 seconds (process running for 5.858)
+2025-03-07 11:28:38 - [INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-07 11:28:38 - [INFO] - Initializing Servlet 'dispatcherServlet'
+2025-03-07 11:28:38 - [INFO] - Completed initialization in 1 ms
+2025-03-07 11:28:38 - [WARN] - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-03-07 11:30:00 - [INFO] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-07 11:30:00 - [INFO] - Graceful shutdown complete
+2025-03-07 11:30:00 - [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-07 11:30:00 - [INFO] - HikariPool-1 - Shutdown initiated...
+2025-03-07 11:30:00 - [INFO] - HikariPool-1 - Shutdown completed.
+2025-03-07 11:30:11 - [INFO] - Starting AddressBookApplication using Java 23.0.2 with PID 1028 (P:\Backend\Address_Book\AddressBook\AddressBook\target\classes started by yogesh in P:\Backend\Address_Book\AddressBook\AddressBook)
+2025-03-07 11:30:11 - [DEBUG] - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-07 11:30:11 - [INFO] - The following 1 profile is active: "dev"
+2025-03-07 11:30:11 - [INFO] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-07 11:30:11 - [INFO] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-07 11:30:12 - [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-07 11:30:12 - [INFO] - Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interface.
+2025-03-07 11:30:13 - [INFO] - Tomcat initialized with port 8080 (http)
+2025-03-07 11:30:13 - [INFO] - Starting service [Tomcat]
+2025-03-07 11:30:13 - [INFO] - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-07 11:30:13 - [INFO] - Initializing Spring embedded WebApplicationContext
+2025-03-07 11:30:13 - [INFO] - Root WebApplicationContext: initialization completed in 1601 ms
+2025-03-07 11:30:13 - [INFO] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-07 11:30:13 - [INFO] - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-07 11:30:13 - [INFO] - HHH000026: Second-level cache disabled
+2025-03-07 11:30:14 - [INFO] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-07 11:30:14 - [INFO] - HikariPool-1 - Starting...
+2025-03-07 11:30:14 - [INFO] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f4f4e46
+2025-03-07 11:30:14 - [INFO] - HikariPool-1 - Start completed.
+2025-03-07 11:30:14 - [WARN] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-07 11:30:14 - [INFO] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-07 11:30:15 - [INFO] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-07 11:30:15 - [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-07 11:30:15 - [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-07 11:30:15 - [DEBUG] - 7 mappings in 'requestMappingHandlerMapping'
+2025-03-07 11:30:15 - [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-03-07 11:30:15 - [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-03-07 11:30:15 - [DEBUG] - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-03-07 11:30:16 - [INFO] - LiveReload server is running on port 35729
+2025-03-07 11:30:16 - [INFO] - Tomcat started on port 8080 (http) with context path '/'
+2025-03-07 11:30:16 - [INFO] - Started AddressBookApplication in 4.702 seconds (process running for 5.188)
+2025-03-07 11:30:30 - [INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-07 11:30:30 - [INFO] - Initializing Servlet 'dispatcherServlet'
+2025-03-07 11:30:30 - [DEBUG] - Detected StandardServletMultipartResolver
+2025-03-07 11:30:30 - [DEBUG] - Detected AcceptHeaderLocaleResolver
+2025-03-07 11:30:30 - [DEBUG] - Detected FixedThemeResolver
+2025-03-07 11:30:30 - [DEBUG] - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@bd02adc
+2025-03-07 11:30:30 - [DEBUG] - Detected org.springframework.web.servlet.support.SessionFlashMapManager@4ccff533
+2025-03-07 11:30:30 - [DEBUG] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-03-07 11:30:30 - [INFO] - Completed initialization in 10 ms
+2025-03-07 11:30:30 - [DEBUG] - POST "/addresses/post%0A", parameters={}
+2025-03-07 11:30:30 - [WARN] - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-03-07 11:30:30 - [DEBUG] - Completed 405 METHOD_NOT_ALLOWED
+2025-03-07 11:30:30 - [DEBUG] - "ERROR" dispatch for POST "/error", parameters={}
+2025-03-07 11:30:30 - [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-03-07 11:30:30 - [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-07 11:30:30 - [DEBUG] - Writing [{timestamp=Fri Mar 07 11:30:30 IST 2025, status=405, error=Method Not Allowed, trace=org.springframe (truncated)...]
+2025-03-07 11:30:31 - [DEBUG] - Exiting from "ERROR" dispatch, status 405
+2025-03-07 11:31:40 - [INFO] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-07 11:31:40 - [INFO] - Graceful shutdown complete
+2025-03-07 11:31:40 - [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-07 11:31:40 - [INFO] - HikariPool-1 - Shutdown initiated...
+2025-03-07 11:31:40 - [INFO] - HikariPool-1 - Shutdown completed.
+2025-03-07 11:31:49 - [INFO] - Starting AddressBookApplication using Java 23.0.2 with PID 17796 (P:\Backend\Address_Book\AddressBook\AddressBook\target\classes started by yogesh in P:\Backend\Address_Book\AddressBook\AddressBook)
+2025-03-07 11:31:49 - [DEBUG] - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-07 11:31:49 - [INFO] - The following 1 profile is active: "dev"
+2025-03-07 11:31:50 - [INFO] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-07 11:31:50 - [INFO] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-07 11:31:50 - [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-07 11:31:50 - [INFO] - Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interface.
+2025-03-07 11:31:51 - [INFO] - Tomcat initialized with port 8080 (http)
+2025-03-07 11:31:51 - [INFO] - Starting service [Tomcat]
+2025-03-07 11:31:51 - [INFO] - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-07 11:31:51 - [INFO] - Initializing Spring embedded WebApplicationContext
+2025-03-07 11:31:51 - [INFO] - Root WebApplicationContext: initialization completed in 1585 ms
+2025-03-07 11:31:51 - [INFO] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-07 11:31:51 - [INFO] - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-07 11:31:52 - [INFO] - HHH000026: Second-level cache disabled
+2025-03-07 11:31:52 - [INFO] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-07 11:31:52 - [INFO] - HikariPool-1 - Starting...
+2025-03-07 11:31:52 - [INFO] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@470a620a
+2025-03-07 11:31:52 - [INFO] - HikariPool-1 - Start completed.
+2025-03-07 11:31:52 - [WARN] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-07 11:31:52 - [INFO] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-07 11:31:53 - [INFO] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-07 11:31:53 - [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-07 11:31:53 - [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-07 11:31:53 - [DEBUG] - 7 mappings in 'requestMappingHandlerMapping'
+2025-03-07 11:31:53 - [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-03-07 11:31:54 - [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-03-07 11:31:54 - [DEBUG] - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-03-07 11:31:54 - [INFO] - LiveReload server is running on port 35729
+2025-03-07 11:31:54 - [INFO] - Tomcat started on port 8080 (http) with context path '/'
+2025-03-07 11:31:54 - [INFO] - Started AddressBookApplication in 5.046 seconds (process running for 5.514)
+2025-03-07 11:32:17 - [INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-07 11:32:17 - [INFO] - Initializing Servlet 'dispatcherServlet'
+2025-03-07 11:32:17 - [DEBUG] - Detected StandardServletMultipartResolver
+2025-03-07 11:32:17 - [DEBUG] - Detected AcceptHeaderLocaleResolver
+2025-03-07 11:32:17 - [DEBUG] - Detected FixedThemeResolver
+2025-03-07 11:32:17 - [DEBUG] - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@759e23d0
+2025-03-07 11:32:17 - [DEBUG] - Detected org.springframework.web.servlet.support.SessionFlashMapManager@5adaf7c4
+2025-03-07 11:32:17 - [DEBUG] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-03-07 11:32:17 - [INFO] - Completed initialization in 2 ms
+2025-03-07 11:32:17 - [DEBUG] - POST "/addresses/post%0A", parameters={}
+2025-03-07 11:32:17 - [WARN] - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-03-07 11:32:17 - [DEBUG] - Completed 405 METHOD_NOT_ALLOWED
+2025-03-07 11:32:17 - [DEBUG] - "ERROR" dispatch for POST "/error", parameters={}
+2025-03-07 11:32:17 - [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-03-07 11:32:17 - [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-07 11:32:17 - [DEBUG] - Writing [{timestamp=Fri Mar 07 11:32:17 IST 2025, status=405, error=Method Not Allowed, trace=org.springframe (truncated)...]
+2025-03-07 11:32:17 - [DEBUG] - Exiting from "ERROR" dispatch, status 405
+2025-03-07 11:32:21 - [DEBUG] - POST "/addresses%0A", parameters={}
+2025-03-07 11:32:21 - [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-03-07 11:32:21 - [DEBUG] - Resource not found
+2025-03-07 11:32:21 - [DEBUG] - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource addresses%0A.]
+2025-03-07 11:32:21 - [DEBUG] - Completed 404 NOT_FOUND
+2025-03-07 11:32:21 - [DEBUG] - "ERROR" dispatch for POST "/error", parameters={}
+2025-03-07 11:32:21 - [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-03-07 11:32:21 - [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-07 11:32:21 - [DEBUG] - Writing [{timestamp=Fri Mar 07 11:32:21 IST 2025, status=404, error=Not Found, trace=org.springframework.web. (truncated)...]
+2025-03-07 11:32:21 - [DEBUG] - Exiting from "ERROR" dispatch, status 404
+2025-03-07 11:32:37 - [DEBUG] - GET "/addresses%0A", parameters={}
+2025-03-07 11:32:37 - [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-03-07 11:32:37 - [DEBUG] - Resource not found
+2025-03-07 11:32:37 - [DEBUG] - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource addresses%0A.]
+2025-03-07 11:32:37 - [DEBUG] - Completed 404 NOT_FOUND
+2025-03-07 11:32:37 - [DEBUG] - "ERROR" dispatch for GET "/error", parameters={}
+2025-03-07 11:32:37 - [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-03-07 11:32:37 - [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-07 11:32:37 - [DEBUG] - Writing [{timestamp=Fri Mar 07 11:32:37 IST 2025, status=404, error=Not Found, trace=org.springframework.web. (truncated)...]
+2025-03-07 11:32:37 - [DEBUG] - Exiting from "ERROR" dispatch, status 404
+2025-03-07 11:34:16 - [DEBUG] - GET "/addresses%0A", parameters={}
+2025-03-07 11:34:16 - [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-03-07 11:34:16 - [DEBUG] - Resource not found
+2025-03-07 11:34:16 - [DEBUG] - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource addresses%0A.]
+2025-03-07 11:34:16 - [DEBUG] - Completed 404 NOT_FOUND
+2025-03-07 11:34:16 - [DEBUG] - "ERROR" dispatch for GET "/error", parameters={}
+2025-03-07 11:34:16 - [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-03-07 11:34:16 - [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-07 11:34:16 - [DEBUG] - Writing [{timestamp=Fri Mar 07 11:34:16 IST 2025, status=404, error=Not Found, trace=org.springframework.web. (truncated)...]
+2025-03-07 11:34:16 - [DEBUG] - Exiting from "ERROR" dispatch, status 404
+2025-03-07 11:34:26 - [DEBUG] - POST "/addresses%0A", parameters={}
+2025-03-07 11:34:26 - [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-03-07 11:34:26 - [DEBUG] - Resource not found
+2025-03-07 11:34:26 - [DEBUG] - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource addresses%0A.]
+2025-03-07 11:34:26 - [DEBUG] - Completed 404 NOT_FOUND
+2025-03-07 11:34:26 - [DEBUG] - "ERROR" dispatch for POST "/error", parameters={}
+2025-03-07 11:34:26 - [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-03-07 11:34:26 - [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-07 11:34:26 - [DEBUG] - Writing [{timestamp=Fri Mar 07 11:34:26 IST 2025, status=404, error=Not Found, trace=org.springframework.web. (truncated)...]
+2025-03-07 11:34:26 - [DEBUG] - Exiting from "ERROR" dispatch, status 404
+2025-03-07 11:34:44 - [DEBUG] - GET "/", parameters={}
+2025-03-07 11:34:44 - [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-03-07 11:34:44 - [DEBUG] - Resource not found
+2025-03-07 11:34:44 - [DEBUG] - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource .]
+2025-03-07 11:34:44 - [DEBUG] - Completed 404 NOT_FOUND
+2025-03-07 11:34:44 - [DEBUG] - "ERROR" dispatch for GET "/error", parameters={}
+2025-03-07 11:34:44 - [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2025-03-07 11:34:44 - [DEBUG] - Selected 'text/html' given [text/html, text/html;q=0.8]
+2025-03-07 11:34:44 - [DEBUG] - Exiting from "ERROR" dispatch, status 404
+2025-03-07 11:34:45 - [DEBUG] - GET "/favicon.ico", parameters={}
+2025-03-07 11:34:45 - [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-03-07 11:34:45 - [DEBUG] - Resource not found
+2025-03-07 11:34:45 - [DEBUG] - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-03-07 11:34:45 - [DEBUG] - Completed 404 NOT_FOUND
+2025-03-07 11:34:45 - [DEBUG] - "ERROR" dispatch for GET "/error", parameters={}
+2025-03-07 11:34:45 - [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-03-07 11:34:45 - [DEBUG] - Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json]
+2025-03-07 11:34:45 - [DEBUG] - Writing [{timestamp=Fri Mar 07 11:34:45 IST 2025, status=404, error=Not Found, trace=org.springframework.web. (truncated)...]
+2025-03-07 11:34:45 - [DEBUG] - Exiting from "ERROR" dispatch, status 404
+2025-03-07 11:34:59 - [DEBUG] - GET "/addresses", parameters={}
+2025-03-07 11:34:59 - [DEBUG] - Mapped to com.bridgelebz.addressBook.controller.AddressController#getAll()
+2025-03-07 11:34:59 - [INFO] - Received GET request for all addresses
+2025-03-07 11:34:59 - [INFO] - Fetching all addresses
+2025-03-07 11:34:59 - [DEBUG] - Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [application/json, application/*+json]
+2025-03-07 11:34:59 - [DEBUG] - Writing [[]]
+2025-03-07 11:34:59 - [DEBUG] - Completed 200 OK
+2025-03-07 11:35:11 - [DEBUG] - GET "/addresses", parameters={}
+2025-03-07 11:35:11 - [DEBUG] - Mapped to com.bridgelebz.addressBook.controller.AddressController#getAll()
+2025-03-07 11:35:11 - [INFO] - Received GET request for all addresses
+2025-03-07 11:35:11 - [INFO] - Fetching all addresses
+2025-03-07 11:35:11 - [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-07 11:35:11 - [DEBUG] - Writing [[]]
+2025-03-07 11:35:11 - [DEBUG] - Completed 200 OK
+2025-03-07 11:35:18 - [DEBUG] - POST "/addresses", parameters={}
+2025-03-07 11:35:18 - [DEBUG] - Mapped to com.bridgelebz.addressBook.controller.AddressController#create(AddressBookDTO)
+2025-03-07 11:35:18 - [DEBUG] - Read "application/octet-stream" to []
+2025-03-07 11:35:18 - [WARN] - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.bridgelebz.addressBook.model.Address> com.bridgelebz.addressBook.controller.AddressController.create(com.bridgelebz.addressBook.dto.AddressBookDTO)]
+2025-03-07 11:35:18 - [DEBUG] - Completed 400 BAD_REQUEST
+2025-03-07 11:35:18 - [DEBUG] - "ERROR" dispatch for POST "/error", parameters={}
+2025-03-07 11:35:18 - [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-03-07 11:35:18 - [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-07 11:35:18 - [DEBUG] - Writing [{timestamp=Fri Mar 07 11:35:18 IST 2025, status=400, error=Bad Request, trace=org.springframework.ht (truncated)...]
+2025-03-07 11:35:18 - [DEBUG] - Exiting from "ERROR" dispatch, status 400
+2025-03-07 11:35:54 - [DEBUG] - POST "/addresses", parameters={}
+2025-03-07 11:35:54 - [DEBUG] - Mapped to com.bridgelebz.addressBook.controller.AddressController#create(AddressBookDTO)
+2025-03-07 11:35:54 - [DEBUG] - Read "application/json;charset=UTF-8" to [AddressBookDTO(name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, stat (truncated)...]
+2025-03-07 11:35:54 - [INFO] - Received POST request to create new address
+2025-03-07 11:35:54 - [INFO] - New address saved: Address(id=1, name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, state=NY, zip=null, address=123 Main Street)
+2025-03-07 11:35:54 - [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-07 11:35:54 - [DEBUG] - Writing [Address(id=1, name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, state (truncated)...]
+2025-03-07 11:35:54 - [DEBUG] - Completed 200 OK
+2025-03-07 11:40:20 - [INFO] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-07 11:40:20 - [INFO] - Graceful shutdown complete
+2025-03-07 11:40:20 - [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-07 11:40:20 - [INFO] - HikariPool-1 - Shutdown initiated...
+2025-03-07 11:40:20 - [INFO] - HikariPool-1 - Shutdown completed.
+2025-03-07 11:40:34 - [INFO] - Starting AddressBookApplication using Java 23.0.2 with PID 9340 (P:\Backend\Address_Book\AddressBook\AddressBook\target\classes started by yogesh in P:\Backend\Address_Book\AddressBook\AddressBook)
+2025-03-07 11:40:34 - [DEBUG] - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-07 11:40:34 - [INFO] - The following 1 profile is active: "dev"
+2025-03-07 11:40:34 - [INFO] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-07 11:40:34 - [INFO] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-07 11:40:35 - [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-07 11:40:35 - [INFO] - Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interface.
+2025-03-07 11:40:36 - [INFO] - Tomcat initialized with port 8080 (http)
+2025-03-07 11:40:36 - [INFO] - Starting service [Tomcat]
+2025-03-07 11:40:36 - [INFO] - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-07 11:40:36 - [INFO] - Initializing Spring embedded WebApplicationContext
+2025-03-07 11:40:36 - [INFO] - Root WebApplicationContext: initialization completed in 1725 ms
+2025-03-07 11:40:36 - [INFO] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-07 11:40:36 - [INFO] - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-07 11:40:36 - [INFO] - HHH000026: Second-level cache disabled
+2025-03-07 11:40:37 - [INFO] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-07 11:40:37 - [INFO] - HikariPool-1 - Starting...
+2025-03-07 11:40:37 - [INFO] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b659455
+2025-03-07 11:40:37 - [INFO] - HikariPool-1 - Start completed.
+2025-03-07 11:40:37 - [WARN] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-07 11:40:37 - [INFO] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-07 11:40:38 - [INFO] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-07 11:40:38 - [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-07 11:40:38 - [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-07 11:40:38 - [DEBUG] - 7 mappings in 'requestMappingHandlerMapping'
+2025-03-07 11:40:38 - [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-03-07 11:40:38 - [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-03-07 11:40:38 - [DEBUG] - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-03-07 11:40:39 - [INFO] - LiveReload server is running on port 35729
+2025-03-07 11:40:39 - [INFO] - Tomcat started on port 8080 (http) with context path '/'
+2025-03-07 11:40:39 - [INFO] - Started AddressBookApplication in 4.914 seconds (process running for 5.37)
+2025-03-07 11:40:47 - [INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-07 11:40:47 - [INFO] - Initializing Servlet 'dispatcherServlet'
+2025-03-07 11:40:47 - [DEBUG] - Detected StandardServletMultipartResolver
+2025-03-07 11:40:47 - [DEBUG] - Detected AcceptHeaderLocaleResolver
+2025-03-07 11:40:47 - [DEBUG] - Detected FixedThemeResolver
+2025-03-07 11:40:47 - [DEBUG] - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@bd02adc
+2025-03-07 11:40:47 - [DEBUG] - Detected org.springframework.web.servlet.support.SessionFlashMapManager@4ccff533
+2025-03-07 11:40:47 - [DEBUG] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-03-07 11:40:47 - [INFO] - Completed initialization in 1 ms
+2025-03-07 11:40:47 - [DEBUG] - POST "/addresses", parameters={}
+2025-03-07 11:40:47 - [DEBUG] - Mapped to com.bridgelebz.addressBook.controller.AddressController#create(AddressBookDTO)
+2025-03-07 11:40:47 - [DEBUG] - Read "application/json;charset=UTF-8" to [AddressBookDTO(name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, stat (truncated)...]
+2025-03-07 11:40:47 - [INFO] - Received POST request to create new address
+2025-03-07 11:40:47 - [INFO] - New address saved: Address(id=1, name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, state=NY, Zip=null, address=123 Main Street)
+2025-03-07 11:40:47 - [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-07 11:40:47 - [DEBUG] - Writing [Address(id=1, name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, state (truncated)...]
+2025-03-07 11:40:47 - [DEBUG] - Completed 200 OK
+2025-03-07 11:40:50 - [DEBUG] - POST "/addresses", parameters={}
+2025-03-07 11:40:50 - [DEBUG] - Mapped to com.bridgelebz.addressBook.controller.AddressController#create(AddressBookDTO)
+2025-03-07 11:40:50 - [DEBUG] - Read "application/json;charset=UTF-8" to [AddressBookDTO(name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, stat (truncated)...]
+2025-03-07 11:40:50 - [INFO] - Received POST request to create new address
+2025-03-07 11:40:50 - [INFO] - New address saved: Address(id=2, name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, state=NY, Zip=null, address=123 Main Street)
+2025-03-07 11:40:50 - [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-07 11:40:50 - [DEBUG] - Writing [Address(id=2, name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, state (truncated)...]
+2025-03-07 11:40:50 - [DEBUG] - Completed 200 OK
+2025-03-07 11:41:06 - [DEBUG] - POST "/addresses", parameters={}
+2025-03-07 11:41:06 - [DEBUG] - Mapped to com.bridgelebz.addressBook.controller.AddressController#create(AddressBookDTO)
+2025-03-07 11:41:06 - [DEBUG] - Read "application/json;charset=UTF-8" to [AddressBookDTO(name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, stat (truncated)...]
+2025-03-07 11:41:06 - [INFO] - Received POST request to create new address
+2025-03-07 11:41:06 - [INFO] - New address saved: Address(id=3, name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, state=NY, Zip=10001, address=123 Main Street)
+2025-03-07 11:41:06 - [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-07 11:41:06 - [DEBUG] - Writing [Address(id=3, name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, state (truncated)...]
+2025-03-07 11:41:06 - [DEBUG] - Completed 200 OK
+2025-03-07 11:45:38 - [INFO] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-07 11:45:38 - [INFO] - Graceful shutdown complete
+2025-03-07 11:45:38 - [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-07 11:45:38 - [INFO] - HikariPool-1 - Shutdown initiated...
+2025-03-07 11:45:38 - [INFO] - HikariPool-1 - Shutdown completed.
+2025-03-07 11:45:46 - [INFO] - Starting AddressBookApplication using Java 23.0.2 with PID 18696 (P:\Backend\Address_Book\AddressBook\AddressBook\target\classes started by yogesh in P:\Backend\Address_Book\AddressBook\AddressBook)
+2025-03-07 11:45:46 - [DEBUG] - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-07 11:45:46 - [INFO] - The following 1 profile is active: "dev"
+2025-03-07 11:45:47 - [INFO] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-07 11:45:47 - [INFO] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-07 11:45:47 - [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-07 11:45:47 - [INFO] - Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interface.
+2025-03-07 11:45:48 - [INFO] - Tomcat initialized with port 8080 (http)
+2025-03-07 11:45:48 - [INFO] - Starting service [Tomcat]
+2025-03-07 11:45:48 - [INFO] - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-07 11:45:48 - [INFO] - Initializing Spring embedded WebApplicationContext
+2025-03-07 11:45:48 - [INFO] - Root WebApplicationContext: initialization completed in 1540 ms
+2025-03-07 11:45:48 - [INFO] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-07 11:45:48 - [INFO] - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-07 11:45:48 - [INFO] - HHH000026: Second-level cache disabled
+2025-03-07 11:45:49 - [INFO] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-07 11:45:49 - [INFO] - HikariPool-1 - Starting...
+2025-03-07 11:45:49 - [INFO] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f4f4e46
+2025-03-07 11:45:49 - [INFO] - HikariPool-1 - Start completed.
+2025-03-07 11:45:49 - [WARN] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-07 11:45:49 - [INFO] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-07 11:45:50 - [INFO] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-07 11:45:50 - [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-07 11:45:50 - [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-07 11:45:50 - [DEBUG] - 7 mappings in 'requestMappingHandlerMapping'
+2025-03-07 11:45:50 - [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-03-07 11:45:50 - [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-03-07 11:45:51 - [DEBUG] - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-03-07 11:45:51 - [INFO] - LiveReload server is running on port 35729
+2025-03-07 11:45:51 - [INFO] - Tomcat started on port 8080 (http) with context path '/'
+2025-03-07 11:45:51 - [INFO] - Started AddressBookApplication in 4.882 seconds (process running for 5.372)
+2025-03-07 11:47:27 - [INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-07 11:47:27 - [INFO] - Initializing Servlet 'dispatcherServlet'
+2025-03-07 11:47:27 - [DEBUG] - Detected StandardServletMultipartResolver
+2025-03-07 11:47:27 - [DEBUG] - Detected AcceptHeaderLocaleResolver
+2025-03-07 11:47:27 - [DEBUG] - Detected FixedThemeResolver
+2025-03-07 11:47:27 - [DEBUG] - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@bd02adc
+2025-03-07 11:47:27 - [DEBUG] - Detected org.springframework.web.servlet.support.SessionFlashMapManager@4ccff533
+2025-03-07 11:47:27 - [DEBUG] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-03-07 11:47:27 - [INFO] - Completed initialization in 3 ms
+2025-03-07 11:47:27 - [DEBUG] - GET "/addresses", parameters={}
+2025-03-07 11:47:27 - [DEBUG] - Mapped to com.bridgelebz.addressBook.controller.AddressController#getAll()
+2025-03-07 11:47:27 - [INFO] - Received GET request for all addresses
+2025-03-07 11:47:27 - [INFO] - Fetching all addresses
+2025-03-07 11:47:27 - [DEBUG] - Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [application/json, application/*+json]
+2025-03-07 11:47:27 - [DEBUG] - Writing [[]]
+2025-03-07 11:47:27 - [DEBUG] - Completed 200 OK
+2025-03-07 11:47:36 - [DEBUG] - GET "/addresses", parameters={}
+2025-03-07 11:47:36 - [DEBUG] - Mapped to com.bridgelebz.addressBook.controller.AddressController#getAll()
+2025-03-07 11:47:36 - [INFO] - Received GET request for all addresses
+2025-03-07 11:47:36 - [INFO] - Fetching all addresses
+2025-03-07 11:47:36 - [DEBUG] - Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [application/json, application/*+json]
+2025-03-07 11:47:36 - [DEBUG] - Writing [[]]
+2025-03-07 11:47:36 - [DEBUG] - Completed 200 OK
+2025-03-07 11:48:20 - [DEBUG] - POST "/addresses", parameters={}
+2025-03-07 11:48:20 - [DEBUG] - Mapped to com.bridgelebz.addressBook.controller.AddressController#create(AddressBookDTO)
+2025-03-07 11:48:20 - [DEBUG] - Read "application/json;charset=UTF-8" to [AddressBookDTO(name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, stat (truncated)...]
+2025-03-07 11:48:20 - [INFO] - Received POST request to create new address: AddressBookDTO(name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, state=NY, Zip=10001, address=123 Main Street)
+2025-03-07 11:48:20 - [INFO] - New address saved: Address(id=1, name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, state=NY, Zip=10001, address=123 Main Street)
+2025-03-07 11:48:20 - [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-07 11:48:20 - [DEBUG] - Writing [Address(id=1, name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, state (truncated)...]
+2025-03-07 11:48:20 - [DEBUG] - Completed 200 OK
+2025-03-07 11:48:22 - [DEBUG] - POST "/addresses", parameters={}
+2025-03-07 11:48:22 - [DEBUG] - Mapped to com.bridgelebz.addressBook.controller.AddressController#create(AddressBookDTO)
+2025-03-07 11:48:22 - [DEBUG] - Read "application/json;charset=UTF-8" to [AddressBookDTO(name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, stat (truncated)...]
+2025-03-07 11:48:22 - [INFO] - Received POST request to create new address: AddressBookDTO(name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, state=NY, Zip=10001, address=123 Main Street)
+2025-03-07 11:48:22 - [INFO] - New address saved: Address(id=2, name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, state=NY, Zip=10001, address=123 Main Street)
+2025-03-07 11:48:22 - [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-07 11:48:22 - [DEBUG] - Writing [Address(id=2, name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, state (truncated)...]
+2025-03-07 11:48:22 - [DEBUG] - Completed 200 OK
+2025-03-07 11:48:30 - [DEBUG] - GET "/addresses", parameters={}
+2025-03-07 11:48:30 - [DEBUG] - Mapped to com.bridgelebz.addressBook.controller.AddressController#getAll()
+2025-03-07 11:48:30 - [INFO] - Received GET request for all addresses
+2025-03-07 11:48:30 - [INFO] - Fetching all addresses
+2025-03-07 11:48:30 - [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-07 11:48:30 - [DEBUG] - Writing [[Address(id=1, name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, stat (truncated)...]
+2025-03-07 11:48:30 - [DEBUG] - Completed 200 OK
+2025-03-07 11:52:59 - [INFO] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-07 11:52:59 - [INFO] - Graceful shutdown complete
+2025-03-07 11:52:59 - [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-07 11:52:59 - [INFO] - HikariPool-1 - Shutdown initiated...
+2025-03-07 11:52:59 - [INFO] - HikariPool-1 - Shutdown completed.
+2025-03-07 11:53:03 - [INFO] - Starting AddressBookApplication using Java 23.0.2 with PID 26880 (P:\Backend\Address_Book\AddressBook\AddressBook\target\classes started by yogesh in P:\Backend\Address_Book\AddressBook\AddressBook)
+2025-03-07 11:53:03 - [DEBUG] - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-07 11:53:03 - [INFO] - The following 1 profile is active: "dev"
+2025-03-07 11:53:03 - [INFO] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-07 11:53:03 - [INFO] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-07 11:53:04 - [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-07 11:53:04 - [INFO] - Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interface.
+2025-03-07 11:53:05 - [INFO] - Tomcat initialized with port 8080 (http)
+2025-03-07 11:53:05 - [INFO] - Starting service [Tomcat]
+2025-03-07 11:53:05 - [INFO] - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-07 11:53:05 - [INFO] - Initializing Spring embedded WebApplicationContext
+2025-03-07 11:53:05 - [INFO] - Root WebApplicationContext: initialization completed in 2244 ms
+2025-03-07 11:53:06 - [INFO] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-07 11:53:06 - [INFO] - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-07 11:53:06 - [INFO] - HHH000026: Second-level cache disabled
+2025-03-07 11:53:06 - [INFO] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-07 11:53:06 - [INFO] - HikariPool-1 - Starting...
+2025-03-07 11:53:10 - [INFO] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@498b7f0d
+2025-03-07 11:53:10 - [INFO] - HikariPool-1 - Start completed.
+2025-03-07 11:53:11 - [WARN] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-07 11:53:11 - [INFO] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-07 11:53:12 - [INFO] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-07 11:53:13 - [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-07 11:53:14 - [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-07 11:53:14 - [DEBUG] - 7 mappings in 'requestMappingHandlerMapping'
+2025-03-07 11:53:14 - [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-03-07 11:53:14 - [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-03-07 11:53:15 - [DEBUG] - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-03-07 11:53:15 - [INFO] - LiveReload server is running on port 35729
+2025-03-07 11:53:15 - [INFO] - Tomcat started on port 8080 (http) with context path '/'
+2025-03-07 11:53:15 - [INFO] - Started AddressBookApplication in 12.615 seconds (process running for 13.467)
+2025-03-07 11:53:25 - [INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-07 11:53:25 - [INFO] - Initializing Servlet 'dispatcherServlet'
+2025-03-07 11:53:25 - [DEBUG] - Detected StandardServletMultipartResolver
+2025-03-07 11:53:25 - [DEBUG] - Detected AcceptHeaderLocaleResolver
+2025-03-07 11:53:25 - [DEBUG] - Detected FixedThemeResolver
+2025-03-07 11:53:25 - [DEBUG] - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@10c8683b
+2025-03-07 11:53:25 - [DEBUG] - Detected org.springframework.web.servlet.support.SessionFlashMapManager@327b3eb1
+2025-03-07 11:53:25 - [DEBUG] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-03-07 11:53:25 - [INFO] - Completed initialization in 4 ms
+2025-03-07 11:53:25 - [DEBUG] - GET "/addresses", parameters={}
+2025-03-07 11:53:25 - [DEBUG] - Mapped to com.bridgelebz.addressBook.controller.AddressController#getAll()
+2025-03-07 11:53:25 - [INFO] - Received GET request for all addresses
+2025-03-07 11:53:25 - [INFO] - Fetching all addresses
+2025-03-07 11:53:25 - [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-07 11:53:25 - [DEBUG] - Writing [[]]
+2025-03-07 11:53:25 - [DEBUG] - Completed 200 OK
+2025-03-07 11:53:38 - [DEBUG] - POST "/addresses", parameters={}
+2025-03-07 11:53:38 - [DEBUG] - Mapped to com.bridgelebz.addressBook.controller.AddressController#create(AddressBookDTO)
+2025-03-07 11:53:39 - [DEBUG] - Read "application/json;charset=UTF-8" to [AddressBookDTO(name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, stat (truncated)...]
+2025-03-07 11:53:39 - [INFO] - Received POST request to create new address: AddressBookDTO(name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, state=NY, Zip=10001, address=123 Main Street)
+2025-03-07 11:53:39 - [INFO] - New address saved: Address(id=1, name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, state=NY, Zip=10001, address=123 Main Street)
+2025-03-07 11:53:39 - [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-07 11:53:39 - [DEBUG] - Writing [Address(id=1, name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, state (truncated)...]
+2025-03-07 11:53:39 - [DEBUG] - Completed 200 OK
+2025-03-07 11:54:26 - [DEBUG] - POST "/addresses", parameters={}
+2025-03-07 11:54:26 - [DEBUG] - Mapped to com.bridgelebz.addressBook.controller.AddressController#create(AddressBookDTO)
+2025-03-07 11:54:26 - [DEBUG] - Read "application/json;charset=UTF-8" to [AddressBookDTO(name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, stat (truncated)...]
+2025-03-07 11:54:26 - [INFO] - Received POST request to create new address: AddressBookDTO(name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, state=NY, Zip=10001, address=123 Main Street)
+2025-03-07 11:54:26 - [INFO] - New address saved: Address(id=2, name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, state=NY, Zip=10001, address=123 Main Street)
+2025-03-07 11:54:26 - [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-07 11:54:26 - [DEBUG] - Writing [Address(id=2, name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, state (truncated)...]
+2025-03-07 11:54:26 - [DEBUG] - Completed 200 OK
+2025-03-07 11:54:30 - [DEBUG] - POST "/addresses", parameters={}
+2025-03-07 11:54:30 - [DEBUG] - Mapped to com.bridgelebz.addressBook.controller.AddressController#create(AddressBookDTO)
+2025-03-07 11:54:30 - [DEBUG] - Read "application/json;charset=UTF-8" to [AddressBookDTO(name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, stat (truncated)...]
+2025-03-07 11:54:30 - [INFO] - Received POST request to create new address: AddressBookDTO(name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, state=NY, Zip=10001, address=123 Main Street)
+2025-03-07 11:54:30 - [INFO] - New address saved: Address(id=3, name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, state=NY, Zip=10001, address=123 Main Street)
+2025-03-07 11:54:30 - [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-07 11:54:30 - [DEBUG] - Writing [Address(id=3, name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, state (truncated)...]
+2025-03-07 11:54:30 - [DEBUG] - Completed 200 OK
+2025-03-07 11:54:36 - [DEBUG] - GET "/addresses", parameters={}
+2025-03-07 11:54:36 - [DEBUG] - Mapped to com.bridgelebz.addressBook.controller.AddressController#getAll()
+2025-03-07 11:54:36 - [INFO] - Received GET request for all addresses
+2025-03-07 11:54:36 - [INFO] - Fetching all addresses
+2025-03-07 11:54:36 - [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-07 11:54:36 - [DEBUG] - Writing [[Address(id=1, name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, stat (truncated)...]
+2025-03-07 11:54:36 - [DEBUG] - Completed 200 OK
+2025-03-07 12:09:36 - [INFO] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-07 12:09:36 - [INFO] - Graceful shutdown complete
+2025-03-07 12:09:36 - [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-07 12:09:36 - [INFO] - HikariPool-1 - Shutdown initiated...
+2025-03-07 12:09:38 - [INFO] - HikariPool-1 - Shutdown completed.
+2025-03-07 12:09:51 - [INFO] - Starting AddressBookApplication using Java 23.0.2 with PID 22700 (P:\Backend\Address_Book\AddressBook\AddressBook\target\classes started by yogesh in P:\Backend\Address_Book\AddressBook\AddressBook)
+2025-03-07 12:09:51 - [DEBUG] - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-07 12:09:51 - [INFO] - The following 1 profile is active: "dev"
+2025-03-07 12:09:51 - [INFO] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-07 12:09:51 - [INFO] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-07 12:09:52 - [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-07 12:09:52 - [INFO] - Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interface.
+2025-03-07 12:09:54 - [INFO] - Tomcat initialized with port 8080 (http)
+2025-03-07 12:09:54 - [INFO] - Starting service [Tomcat]
+2025-03-07 12:09:54 - [INFO] - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-07 12:09:54 - [INFO] - Initializing Spring embedded WebApplicationContext
+2025-03-07 12:09:54 - [INFO] - Root WebApplicationContext: initialization completed in 2439 ms
+2025-03-07 12:09:54 - [INFO] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-07 12:09:54 - [INFO] - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-07 12:09:54 - [INFO] - HHH000026: Second-level cache disabled
+2025-03-07 12:09:55 - [INFO] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-07 12:09:55 - [INFO] - HikariPool-1 - Starting...
+2025-03-07 12:09:59 - [INFO] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@498b7f0d
+2025-03-07 12:09:59 - [INFO] - HikariPool-1 - Start completed.
+2025-03-07 12:10:00 - [WARN] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-07 12:10:00 - [INFO] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-07 12:10:01 - [INFO] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-07 12:10:02 - [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-07 12:10:03 - [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-07 12:10:03 - [DEBUG] - 7 mappings in 'requestMappingHandlerMapping'
+2025-03-07 12:10:03 - [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-03-07 12:10:04 - [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-03-07 12:10:04 - [DEBUG] - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-03-07 12:10:04 - [INFO] - LiveReload server is running on port 35729
+2025-03-07 12:10:04 - [INFO] - Tomcat started on port 8080 (http) with context path '/'
+2025-03-07 12:10:04 - [INFO] - Started AddressBookApplication in 13.463 seconds (process running for 14.312)
+2025-03-07 12:10:15 - [INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-07 12:10:15 - [INFO] - Initializing Servlet 'dispatcherServlet'
+2025-03-07 12:10:15 - [DEBUG] - Detected StandardServletMultipartResolver
+2025-03-07 12:10:15 - [DEBUG] - Detected AcceptHeaderLocaleResolver
+2025-03-07 12:10:15 - [DEBUG] - Detected FixedThemeResolver
+2025-03-07 12:10:15 - [DEBUG] - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4e4e8999
+2025-03-07 12:10:15 - [DEBUG] - Detected org.springframework.web.servlet.support.SessionFlashMapManager@5c034d1f
+2025-03-07 12:10:15 - [DEBUG] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-03-07 12:10:15 - [INFO] - Completed initialization in 4 ms
+2025-03-07 12:10:15 - [DEBUG] - GET "/addresses", parameters={}
+2025-03-07 12:10:15 - [DEBUG] - Mapped to com.bridgelebz.addressBook.controller.AddressController#getAll()
+2025-03-07 12:10:15 - [INFO] - Received GET request for all addresses
+2025-03-07 12:10:15 - [INFO] - Fetching all addresses
+2025-03-07 12:10:17 - [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-07 12:10:17 - [DEBUG] - Writing [[]]
+2025-03-07 12:10:18 - [DEBUG] - Completed 200 OK
+2025-03-07 12:10:23 - [DEBUG] - POST "/addresses", parameters={}
+2025-03-07 12:10:23 - [DEBUG] - Mapped to com.bridgelebz.addressBook.controller.AddressController#create(AddressBookDTO)
+2025-03-07 12:10:24 - [DEBUG] - Read "application/json;charset=UTF-8" to [AddressBookDTO(name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, stat (truncated)...]
+2025-03-07 12:10:24 - [INFO] - Received POST request to create new address: AddressBookDTO(name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, state=NY, Zip=10001, address=123 Main Street)
+2025-03-07 12:10:24 - [INFO] - New address saved: Address(id=1, name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, state=NY, Zip=10001, address=123 Main Street)
+2025-03-07 12:10:26 - [DEBUG] - Failed to complete request: org.springframework.orm.ObjectOptimisticLockingFailureException: Row was updated or deleted by another transaction (or unsaved-value mapping was incorrect): [com.bridgelebz.addressBook.model.Address#1]
+2025-03-07 12:10:26 - [ERROR] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.orm.ObjectOptimisticLockingFailureException: Row was updated or deleted by another transaction (or unsaved-value mapping was incorrect): [com.bridgelebz.addressBook.model.Address#1]] with root cause
+org.hibernate.StaleObjectStateException: Row was updated or deleted by another transaction (or unsaved-value mapping was incorrect): [com.bridgelebz.addressBook.model.Address#1]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:426)
+	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:214)
+	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:152)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:136)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:89)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:854)
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:840)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:364)
+	at jdk.proxy4/jdk.proxy4.$Proxy113.merge(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:320)
+	at jdk.proxy4/jdk.proxy4.$Proxy113.merge(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:639)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:515)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:284)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:752)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:174)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy4/jdk.proxy4.$Proxy117.save(Unknown Source)
+	at com.bridgelebz.addressBook.service.AddressService.saveAddress(AddressService.java:37)
+	at com.bridgelebz.addressBook.controller.AddressController.create(AddressController.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-03-07 12:10:26 - [DEBUG] - "ERROR" dispatch for POST "/error", parameters={}
+2025-03-07 12:10:26 - [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-03-07 12:10:26 - [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-07 12:10:26 - [DEBUG] - Writing [{timestamp=Fri Mar 07 12:10:26 IST 2025, status=500, error=Internal Server Error, trace=org.springfr (truncated)...]
+2025-03-07 12:10:26 - [DEBUG] - Exiting from "ERROR" dispatch, status 500
+2025-03-07 12:13:43 - [INFO] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-07 12:13:43 - [INFO] - Graceful shutdown complete
+2025-03-07 12:13:43 - [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-07 12:13:43 - [INFO] - HikariPool-1 - Shutdown initiated...
+2025-03-07 12:13:45 - [INFO] - HikariPool-1 - Shutdown completed.
+2025-03-07 12:19:05 - [INFO] - Starting AddressBookApplication using Java 23.0.2 with PID 12196 (P:\Backend\Address_Book\AddressBook\AddressBook\target\classes started by yogesh in P:\Backend\Address_Book\AddressBook\AddressBook)
+2025-03-07 12:19:05 - [DEBUG] - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-07 12:19:05 - [INFO] - The following 1 profile is active: "dev"
+2025-03-07 12:19:06 - [INFO] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-07 12:19:06 - [INFO] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-07 12:19:06 - [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-07 12:19:06 - [INFO] - Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interface.
+2025-03-07 12:19:08 - [INFO] - Tomcat initialized with port 8080 (http)
+2025-03-07 12:19:08 - [INFO] - Starting service [Tomcat]
+2025-03-07 12:19:08 - [INFO] - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-07 12:19:08 - [INFO] - Initializing Spring embedded WebApplicationContext
+2025-03-07 12:19:08 - [INFO] - Root WebApplicationContext: initialization completed in 2428 ms
+2025-03-07 12:19:08 - [INFO] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-07 12:19:08 - [INFO] - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-07 12:19:08 - [INFO] - HHH000026: Second-level cache disabled
+2025-03-07 12:19:09 - [INFO] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-07 12:19:09 - [INFO] - HikariPool-1 - Starting...
+2025-03-07 12:19:13 - [INFO] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f9bdfa3
+2025-03-07 12:19:13 - [INFO] - HikariPool-1 - Start completed.
+2025-03-07 12:19:14 - [WARN] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-07 12:19:14 - [INFO] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-07 12:19:15 - [INFO] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-07 12:19:17 - [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-07 12:19:17 - [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-07 12:19:17 - [DEBUG] - 7 mappings in 'requestMappingHandlerMapping'
+2025-03-07 12:19:18 - [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-03-07 12:19:18 - [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-03-07 12:19:18 - [DEBUG] - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-03-07 12:19:18 - [INFO] - LiveReload server is running on port 35729
+2025-03-07 12:19:18 - [INFO] - Tomcat started on port 8080 (http) with context path '/'
+2025-03-07 12:19:18 - [INFO] - Started AddressBookApplication in 13.558 seconds (process running for 14.422)
+2025-03-07 12:19:34 - [INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-07 12:19:34 - [INFO] - Initializing Servlet 'dispatcherServlet'
+2025-03-07 12:19:34 - [DEBUG] - Detected StandardServletMultipartResolver
+2025-03-07 12:19:34 - [DEBUG] - Detected AcceptHeaderLocaleResolver
+2025-03-07 12:19:34 - [DEBUG] - Detected FixedThemeResolver
+2025-03-07 12:19:34 - [DEBUG] - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@31a96b0c
+2025-03-07 12:19:34 - [DEBUG] - Detected org.springframework.web.servlet.support.SessionFlashMapManager@226cd428
+2025-03-07 12:19:34 - [DEBUG] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-03-07 12:19:34 - [INFO] - Completed initialization in 4 ms
+2025-03-07 12:19:34 - [DEBUG] - POST "/addresses", parameters={}
+2025-03-07 12:19:34 - [WARN] - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-03-07 12:19:34 - [DEBUG] - Completed 405 METHOD_NOT_ALLOWED
+2025-03-07 12:19:35 - [DEBUG] - "ERROR" dispatch for POST "/error", parameters={}
+2025-03-07 12:19:35 - [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-03-07 12:19:35 - [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-07 12:19:35 - [DEBUG] - Writing [{timestamp=Fri Mar 07 12:19:35 IST 2025, status=405, error=Method Not Allowed, trace=org.springframe (truncated)...]
+2025-03-07 12:19:35 - [DEBUG] - Exiting from "ERROR" dispatch, status 405
+2025-03-07 12:21:54 - [DEBUG] - POST "/addresses/post", parameters={}
+2025-03-07 12:21:54 - [DEBUG] - Mapped to com.bridgelebz.addressBook.controller.AddressController#create(AddressBookDTO)
+2025-03-07 12:21:54 - [DEBUG] - Read "application/json;charset=UTF-8" to [AddressBookDTO(name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, stat (truncated)...]
+2025-03-07 12:21:54 - [INFO] - Received POST request to create new address
+2025-03-07 12:21:54 - [INFO] - Saving new address: Address(id=null, name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, state=NY, Zip=10001, address=123 Main Street)
+2025-03-07 12:21:56 - [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-07 12:21:56 - [DEBUG] - Writing [Address(id=1, name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, state (truncated)...]
+2025-03-07 12:21:56 - [DEBUG] - Completed 200 OK
+2025-03-07 12:22:03 - [DEBUG] - GET "/addresses/post", parameters={}
+2025-03-07 12:22:03 - [DEBUG] - Mapped to com.bridgelebz.addressBook.controller.AddressController#getById(Long)
+2025-03-07 12:22:03 - [DEBUG] - Could not resolve parameter [0] in public org.springframework.http.ResponseEntity<com.bridgelebz.addressBook.model.Address> com.bridgelebz.addressBook.controller.AddressController.getById(java.lang.Long): Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "post"
+2025-03-07 12:22:03 - [WARN] - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "post"]
+2025-03-07 12:22:03 - [DEBUG] - Completed 400 BAD_REQUEST
+2025-03-07 12:22:03 - [DEBUG] - "ERROR" dispatch for GET "/error", parameters={}
+2025-03-07 12:22:03 - [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-03-07 12:22:03 - [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-07 12:22:03 - [DEBUG] - Writing [{timestamp=Fri Mar 07 12:22:03 IST 2025, status=400, error=Bad Request, trace=org.springframework.we (truncated)...]
+2025-03-07 12:22:03 - [DEBUG] - Exiting from "ERROR" dispatch, status 400
+2025-03-07 12:22:10 - [DEBUG] - GET "/addresses", parameters={}
+2025-03-07 12:22:10 - [DEBUG] - Mapped to com.bridgelebz.addressBook.controller.AddressController#getAll()
+2025-03-07 12:22:10 - [INFO] - Received GET request for all addresses
+2025-03-07 12:22:10 - [INFO] - Fetching all addresses from DB
+2025-03-07 12:22:13 - [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-07 12:22:13 - [DEBUG] - Writing [[Address(id=1, name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, stat (truncated)...]
+2025-03-07 12:22:13 - [DEBUG] - Completed 200 OK
+2025-03-07 12:23:53 - [DEBUG] - POST "/addresses/post", parameters={}
+2025-03-07 12:23:53 - [DEBUG] - Mapped to com.bridgelebz.addressBook.controller.AddressController#create(AddressBookDTO)
+2025-03-07 12:23:53 - [DEBUG] - Read "application/json;charset=UTF-8" to [AddressBookDTO(name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, stat (truncated)...]
+2025-03-07 12:23:53 - [INFO] - Received POST request to create new address
+2025-03-07 12:23:53 - [INFO] - Saving new address: Address(id=null, name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, state=NY, Zip=10001, address=123 Main Street)
+2025-03-07 12:23:55 - [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-03-07 12:23:55 - [DEBUG] - Writing [Address(id=2, name=John Doe, phoneNumber=9876543210, email=johndoe@example.com, city=New York, state (truncated)...]
+2025-03-07 12:23:55 - [DEBUG] - Completed 200 OK
+2025-03-07 12:28:26 - [WARN] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m42s766ms857µs500ns).
