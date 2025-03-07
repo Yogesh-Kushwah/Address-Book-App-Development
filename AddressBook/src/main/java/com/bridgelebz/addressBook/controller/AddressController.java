@@ -3,6 +3,7 @@ package com.bridgelebz.addressBook.controller;
 import com.bridgelebz.addressBook.dto.AddressBookDTO;
 import com.bridgelebz.addressBook.model.Address;
 import com.bridgelebz.addressBook.service.AddressService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -10,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
+@Slf4j  // Enables Lombok Logging
 @RestController
 @RequestMapping("/addresses")
 public class AddressController {
@@ -19,17 +21,20 @@ public class AddressController {
 
     @GetMapping
     public ResponseEntity<List<Address>> getAll() {
+        log.info("Received GET request for all addresses");
         return ResponseEntity.ok(service.getAllAddresses());
     }
 
     @GetMapping("/{id}")
     public ResponseEntity<Address> getById(@PathVariable Long id) {
+        log.info("Received GET request for address ID: {}", id);
         Optional<Address> address = service.getAddressById(id);
         return address.map(ResponseEntity::ok).orElse(ResponseEntity.notFound().build());
     }
 
     @PostMapping("/post")
     public ResponseEntity<Address> create(@RequestBody AddressBookDTO dto) {
+        log.info("Received POST request to create new address");
         Address address = new Address();
         address.setName(dto.getName());
         address.setPhoneNumber(dto.getPhoneNumber());
@@ -41,6 +46,7 @@ public class AddressController {
 
     @PutMapping("/{id}")
     public ResponseEntity<Address> update(@PathVariable Long id, @RequestBody AddressBookDTO dto) {
+        log.info("Received PUT request to update address ID: {}", id);
         Address updatedAddress = new Address();
         updatedAddress.setName(dto.getName());
         updatedAddress.setPhoneNumber(dto.getPhoneNumber());
@@ -54,6 +60,7 @@ public class AddressController {
 
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> delete(@PathVariable Long id) {
+        log.info("Received DELETE request for address ID: {}", id);
         if (service.deleteAddress(id)) {
             return ResponseEntity.noContent().build();
         }
